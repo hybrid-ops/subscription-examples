@@ -1,0 +1,12 @@
+apiVersion: securityenforcement.admission.cloud.ibm.com/v1beta1
+kind: ImagePolicy
+metadata:
+  name: bookinfo
+spec:
+  repositories:
+  - name: "docker.io/istio/examples-bookinfo-details-v1:*"
+  - name: "docker.io/istio/examples-bookinfo-ratings-v1:*"
+  - name: "docker.io/istio/examples-bookinfo-reviews-v1:*"
+  - name: "docker.io/istio/examples-bookinfo-reviews-v2:*"
+  - name: "docker.io/istio/examples-bookinfo-reviews-v3:*"
+  - name: "docker.io/istio/examples-bookinfo-productpage-v1:*"
