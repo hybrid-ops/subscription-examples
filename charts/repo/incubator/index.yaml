@@ -1,0 +1,174 @@
+apiVersion: v1
+entries:
+  bookinfo:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:47.008252+01:00
+    description: A Helm chart for bookinfo app (based on sample Istio app)
+    digest: 62cf2c73737db9016570a3c7069707dff256efdb3a6cb9e65afc51708576ad1b
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:47.005673+01:00
+    description: A Helm chart for bookinfo app (based on sample Istio app)
+    digest: 64348f800a33298c440f8195e01202dfe824ed8df82944fc242a06fe0f5885b2
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:47.003188+01:00
+    description: A Helm chart for bookinfo app (based on sample Istio app)
+    digest: 0e78cb0c40875dfbe548652cf472a73af28e2495fc40206d6a5fa49bf17e0c0c
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:46.999984+01:00
+    description: A Helm chart for bookinfo app (based on sample Istio app)
+    digest: 9dcc362f03b4367da92969550bb9dcc4d7161e232ee954394c2f2a88a10d4351
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:46.997567+01:00
+    description: A Helm chart for bookinfo app (based on sample Istio app)
+    digest: 37c9c3d3b4c5e39c76227cd205ee6b1550e84290a9dcae963c8f75cf79092e31
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:46.994688+01:00
+    description: A Helm chart for bookinfo app (based on sample Istio app)
+    digest: 985da123a8fcc1e524cfc663781f05206b24e75335b92965eb8edbfc63927f50
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:46.992609+01:00
+    description: A Helm chart for bookinfo app (Sample Istio app)
+    digest: 0de3041c1f28aa462cfa56455d2808fde1f9fb24417f14158c6d412601f35dea
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:46.990554+01:00
+    description: A Helm chart for bookinfo app (Sample Istio app)
+    digest: 8dd722ce248107aa614a11e0ace51db139b131a88083bd4ba5a6a3545461ba8a
+    icon: https://ibm-icp-coc.github.io/charts/repo/stable/bookinfo.png
+    keywords:
+    - sample
+    - istio
+    - bookinfo
+    - ruby
+    - python
+    - liberty
+    - mysql
+    - ICAM
+    - CloudPak
+    name: bookinfo
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/bookinfo-1.0.0.tgz
+    version: 1.0.0
+  checkout:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-10T16:44:47.010774+01:00
+    description: A Helm chart for Kubernetes
+    digest: 92f18276a34a228ed67c7e8c86c106a7af22c6f9f1429311e2a46e459fae910a
+    name: checkout
+    urls:
+    - https://raw.githubusercontent.com/hybrid-ops/subscription-examples/master/charts/repo/incubator/checkout-0.1.0.tgz
+    version: 0.1.0
+generated: 2020-01-10T16:44:46.986481+01:00
