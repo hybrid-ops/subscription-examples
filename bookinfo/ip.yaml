@@ -1,0 +1,22 @@
+apiVersion: securityenforcement.admission.cloud.ibm.com/v1beta1
+kind: ImagePolicy
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: "Tiller"
+    app.kubernetes.io/instance: "bookinfo-productpage"
+    # app.kubernetes.io/version: 1.0
+    helm.sh/chart: "productpage-0.1.0"
+  annotations:
+    # This is what defines this resource as a hook. Without this line, the
+    # job is considered part of the release.
+    "helm.sh/hook": crd-install
+    "helm.sh/hook-weight": "-5"
+    "helm.sh/hook-delete-policy": hook-succeeded
+  name: bookinfo-productpage
+  namespace: bookinfo
+spec:
+  repositories:
+  - name: "docker.io/istio/examples-bookinfo-productpage-v1:*"
+    policy:
+      va:
+        enabled: false

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Namespace
+metadata: 
+  name: bookinfo
+---
+apiVersion: securityenforcement.admission.cloud.ibm.com/v1beta1
+kind: ImagePolicy
+metadata:
+  name: bookinfo-image-policy
+  namespace: bookinfo
+spec:
+  repositories:
+  - name: docker.io/istio/*
+    policy:
+      va:
+        enabled: false
+  - name: docker.io/dymaczew/*
+    policy:
+      va:
+        enabled: false
+

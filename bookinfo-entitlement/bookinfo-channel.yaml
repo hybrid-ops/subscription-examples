@@ -1,0 +1,12 @@
+# Create a Channel that declares resources that can be deployed
+# Channel can be a Namespace, Object Store Bucket, or Helm Repo
+apiVersion: app.ibm.com/v1alpha1
+kind: Channel
+metadata:
+  name: bookinfo-channel
+  namespace: bookinfo-entitlement
+spec:
+  type: HelmRepo
+  pathname: https://raw.githubusercontent.com/dymaczew/charts/master/repo/incubator/
+  configMap:
+    insecureSkipVerify: true
