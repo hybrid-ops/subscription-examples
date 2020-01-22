@@ -1,0 +1,11 @@
+apiVersion: app.ibm.com/v1alpha1
+kind: Subscription
+metadata:
+  name: github-bookinfo-subscription
+  namespace: github-bookinfo-channel
+spec:
+  channel: github-bookinfo-channel/github-bookinfo
+  name: bookinfo
+  placement:
+    clusters: 
+      - name: target-d
