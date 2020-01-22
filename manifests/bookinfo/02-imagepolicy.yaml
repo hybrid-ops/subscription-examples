@@ -2,6 +2,7 @@ apiVersion: securityenforcement.admission.cloud.ibm.com/v1beta1
 kind: ImagePolicy
 metadata:
   name: bookinfo
+  namespace: github-bookinfo
 spec:
   repositories:
   - name: "docker.io/istio/examples-bookinfo-details-v1:*"
