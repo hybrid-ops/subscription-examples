@@ -5,4 +5,4 @@ metadata:
   namespace: github-bookinfo-channel
 spec:
   type: GitHub
-  pathname: https://github.com/hassenius/subscription-examples/tree/github-channel/manifests/bookinfo
+  pathname: https://github.com/hybrid-ops/subscription-examples.git
